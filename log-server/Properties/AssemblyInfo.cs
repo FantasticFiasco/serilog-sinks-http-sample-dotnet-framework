@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Serilog")]
+[assembly: AssemblyTitle("Log Server")]
 [assembly: AssemblyProduct("Serilog.Sinks.Http and .NET Framework sample")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("527eba2e-7f09-4229-9421-b764cb733db0")]
+[assembly: Guid("85811fba-b0fd-4379-adc9-bad352012145")]
 
 // Version information for an assembly consists of the following four values:
 //

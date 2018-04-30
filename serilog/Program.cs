@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using Serilog.Generators;
 
 namespace Serilog
@@ -7,8 +8,10 @@ namespace Serilog
     {
         static void Main()
         {
+            Console.WriteLine("Starting application producing log events...");
+
             ILogger logger = new LoggerConfiguration()
-                .WriteTo.DurableHttp("http://logstash:8080")
+                .WriteTo.DurableHttp("http://localhost:8080/log-events")
                 .WriteTo.Console()
                 .CreateLogger()
                 .ForContext<Program>();
