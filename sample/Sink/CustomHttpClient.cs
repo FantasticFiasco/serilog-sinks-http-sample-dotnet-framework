@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Serilog.Sinks.Http;
 
-namespace Serilog.Sink
+namespace Sample.Sink
 {
     public class CustomHttpClient : IHttpClient
     {

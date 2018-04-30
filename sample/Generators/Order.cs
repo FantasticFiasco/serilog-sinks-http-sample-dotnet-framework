@@ -1,4 +1,4 @@
-﻿namespace Serilog.Generators
+﻿namespace Sample.Generators
 {
     public class Order
     {

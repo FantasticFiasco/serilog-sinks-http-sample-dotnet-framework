@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serilog", "serilog\serilog.csproj", "{527EBA2E-7F09-4229-9421-B764CB733DB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "sample\Sample.csproj", "{527EBA2E-7F09-4229-9421-B764CB733DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log-server", "log-server\log-server.csproj", "{85811FBA-B0FD-4379-ADC9-BAD352012145}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogServer", "log-server\LogServer.csproj", "{85811FBA-B0FD-4379-ADC9-BAD352012145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

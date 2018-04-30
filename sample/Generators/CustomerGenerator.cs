@@ -1,6 +1,6 @@
 ﻿using Bogus;
 
-namespace Serilog.Generators
+namespace Sample.Generators
 {
     public class CustomerGenerator
     {
