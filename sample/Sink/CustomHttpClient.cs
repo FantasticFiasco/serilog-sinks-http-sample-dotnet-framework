@@ -14,15 +14,7 @@ namespace Sample.Sink
             httpClient.DefaultRequestHeaders.Add("X-Api-Key", "secret-api-key");
         }
 
-        public Task<HttpResponseMessage> PostAsync(string requestUri, HttpContent content)
-        {
-            var message = new HttpRequestMessage(HttpMethod.Post, requestUri)
-            {
-                Content = content
-            };
-
-            return httpClient.SendAsync(message);
-        }
+        public Task<HttpResponseMessage> PostAsync(string requestUri, HttpContent content) => httpClient.PostAsync(requestUri, content);
 
         public void Dispose() => httpClient?.Dispose();
     }
