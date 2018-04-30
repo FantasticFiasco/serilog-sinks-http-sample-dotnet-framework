@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using Serilog.Generators;
+using Serilog.Sink;
 
 namespace Serilog
 {
@@ -11,7 +12,9 @@ namespace Serilog
             Console.WriteLine("Starting application producing log events...");
 
             ILogger logger = new LoggerConfiguration()
-                .WriteTo.DurableHttp("http://localhost:8080/log-events")
+                .WriteTo.DurableHttp(
+                    "http://localhost:8080/log-events",
+                    httpClient: new CustomHttpClient())
                 .WriteTo.Console()
                 .CreateLogger()
                 .ForContext<Program>();
