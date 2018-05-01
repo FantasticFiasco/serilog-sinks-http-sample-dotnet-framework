@@ -1,4 +1,4 @@
-# Sample using Serilog.Sinks.Http in .NET Framework
+# Serilog.Sinks.Http- Sample in .NET Framework
 
 [![Build status](https://ci.appveyor.com/api/projects/status/phjs4ukdaiwg4u4s/branch/master?svg=true)](https://ci.appveyor.com/project/FantasticFiasco/serilog-sinks-http-sample-dotnet-framework/branch/master)
 
