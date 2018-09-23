@@ -55,7 +55,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="22.0.8" />
+    <PackageReference Include="Bogus" Version="22.3.2" />
     <PackageReference Include="Serilog.Settings.AppSettings" Version="2.1.2" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
     <PackageReference Include="Serilog.Sinks.Http" Version="4.3.0" />
