@@ -13,3 +13,8 @@ This repository contains a sample application of [Serilog.Sinks.Http](https://gi
 1. Press _F5_ to start debugging
 
 What you will end up with is two console applications, one producing log events while the other consumes the log events.
+
+## Remarks
+
+- The sample application is using a custom implementation of a HTTP client, mainly to show that it is possible to do so. But don't specify a custom implementation if you don't have to.
+- The sink is configured in code, but could as well be configured in `App.config` using [Serilog.Settings.AppSettings](https://github.com/serilog/serilog-settings-appsettings).

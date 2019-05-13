@@ -52,11 +52,7 @@
     <Compile Include="Sink\CustomHttpClient.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Bogus" Version="27.0.1" />
-    <PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
     <PackageReference Include="Serilog.Sinks.Http" Version="5.2.0" />
   </ItemGroup>
