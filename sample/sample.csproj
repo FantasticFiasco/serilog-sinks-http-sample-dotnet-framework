@@ -52,9 +52,9 @@
     <Compile Include="Sink\CustomHttpClient.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bogus" Version="29.0.2" />
+    <PackageReference Include="Bogus" Version="30.0.4" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
-    <PackageReference Include="Serilog.Sinks.Http" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.Http" Version="7.0.1" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
