@@ -13,8 +13,9 @@ namespace Sample
             Console.WriteLine("Starting application producing log events...");
 
             var logger = new LoggerConfiguration()
-                .WriteTo.Console()
-                .WriteTo.Http("http://localhost:8080/log-events", httpClient: new CustomHttpClient())
+                .ReadFrom.AppSettings()
+                //.WriteTo.Console()
+                //.WriteTo.Http("http://localhost:8080/log-events", httpClient: new CustomHttpClient())
                 .CreateLogger()
                 .ForContext<Program>();
 
