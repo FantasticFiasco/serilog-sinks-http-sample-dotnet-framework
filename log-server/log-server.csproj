@@ -3,7 +3,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>LogServer</RootNamespace>
     <AssemblyName>LogServer</AssemblyName>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <AssemblyTitle>Log Server</AssemblyTitle>
     <Product>Serilog.Sinks.Http and .NET Framework sample</Product>
