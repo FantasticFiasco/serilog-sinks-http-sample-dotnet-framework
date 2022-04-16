@@ -13,7 +13,7 @@ namespace Sample.Sink
 
         public CustomHttpClient() => httpClient = new HttpClient();
 
-        public void Configure(IConfiguration configuration) => httpClient.DefaultRequestHeaders.Add("X-Api-Key", "secret-api-key");
+        public void Configure(IConfiguration configuration) => httpClient.DefaultRequestHeaders.Add("X-Api-Key", configuration["apiKey"]);
 
         public async Task<HttpResponseMessage> PostAsync(string requestUri, Stream contentStream)
         {
