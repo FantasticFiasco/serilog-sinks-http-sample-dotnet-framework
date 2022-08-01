@@ -4,6 +4,10 @@
 
 This repository contains a sample application of [Serilog.Sinks.Http](https://github.com/FantasticFiasco/serilog-sinks-http) producing log events sent over HTTP to a basic log server.
 
+![sample](assets/sample.png)
+
+![log server](assets/log-server.png)
+
 ## Running the application
 
 1. Open `dotnet-framework-sample.sln` is Visual Studio
