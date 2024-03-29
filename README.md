@@ -1,6 +1,6 @@
 # Serilog.Sinks.Http - Sample in .NET Framework
 
-[![Build status](https://ci.appveyor.com/api/projects/status/phjs4ukdaiwg4u4s/branch/master?svg=true)](https://ci.appveyor.com/project/FantasticFiasco/serilog-sinks-http-sample-dotnet-framework/branch/master)
+[![CI](https://github.com/FantasticFiasco/serilog-sinks-http-sample-dotnet-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/FantasticFiasco/serilog-sinks-http-sample-dotnet-framework/actions/workflows/ci.yml)
 
 This repository contains a sample application of [Serilog.Sinks.Http](https://github.com/FantasticFiasco/serilog-sinks-http) producing log events sent over HTTP to a basic log server.
 
