@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: microsoft/setup-msbuild@v3
-      - uses: nuget/setup-nuget@v2
+      - uses: nuget/setup-nuget@v3
       - run: nuget restore
       - run: msbuild
